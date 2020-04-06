@@ -1,0 +1,56 @@
+var technical = [
+    {
+    dimensions : 
+     {
+        "overall length" : 3500,
+        "overall width" : 1600,
+        "overall height" : 1490,
+        "wheel base" : 2360,
+        "track width" : {
+            front : 1405,
+            rear : 1400,
+        },
+        "minimum turning radius" : 4.5,
+        "minimum ground clearance" : 170,
+    },
+    capacities : {
+        "seating capacity" : 5,
+        "fuel tank capacity" : 35, 
+    },
+    Engine : {
+        type : "KB-Series",
+        "number of cylinders" : 3,
+        "number of valves" : 12,
+        capacity : 998,
+        "Bore X stroke" : 73.0*79.5,
+        "compression ratio" : 10.1,
+        "maximum power" : 67/6200,
+        "maximum torque" : 90/3500,
+        "fuel distribution" : "Multipoint Injection",
+    },
+    Transmission : {
+        type : 5-"Speed MT",
+    },
+    Chassis : {
+        steering : "Rack & pinion,power assisted",
+        brakes : {
+            front : "ventilated discs",
+            rear : "drums",
+        },
+        suspension : {
+            front : "MacPherson strut & coil spring",
+            rear : "Isolated trailing link & coil spring",
+        },
+        "shock absorbers" : "Gas filled",
+        "Tyre(tubeless)" : "155/80R13",
+    },
+    weights : {
+        "Kerb weight (min.with full options)" : 860-880,
+        "Gross vehicle weight" : 1320,
+    },
+
+
+}
+    
+]
+console.log(technical);

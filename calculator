@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>calculator</title>
+        <script name = "type/javascript">
+        function add()
+            {
+                var a = Number(document.getElementById("a").value);
+                var b = Number(document.getElementById("b").value);
+                var c = a + b;
+                document.getElementById("result").value =+c;
+            }
+            function sub()
+            {
+                var a = Number(document.getElementById("a").value);
+                var b = Number(document.getElementById("b").value);
+                var c = a - b;
+                document.getElementById("result").value =+c;
+            }
+            function mul()
+            {
+                var a = Number(document.getElementById("a").value);
+                var b = Number(document.getElementById("b").value);
+                var c = a * b;
+                document.getElementById("result").value =+c;
+            }
+            function div()
+            {
+                var a = Number(document.getElementById("a").value);
+                var b = Number(document.getElementById("b").value);
+                var c = a % b;
+                document.getElementById("result").value =+c;
+            }
+            function clr()
+            {
+                document.getElementById("result").value ="";
+                document.getElementById("a").value ="";
+                document.getElementById("b").value ="";
+            }
+
+
+
+       
+         </script>
+
+    </head>
+
+    <body>
+        <form>
+            <input type ="text" id ="a"><br><br>
+            <input type ="text" id ="b"><br><br>
+            <input type ="button" id ="" value ="add" onclick = "add()">
+            <input type ="button" id ="" value ="sub" onclick = "sub()">
+            <input type ="button" id ="" value ="mul" onclick = "mul()">
+            <input type ="button" id ="" value ="div" onclick = "div()">
+            <input type ="button" id ="" value ="clr" onclick = "clr()"><br><br>
+            <input type ="text" id ="result">
+            
+
+
+        </form>
+
+    </body>
+
+</html>   
+   
